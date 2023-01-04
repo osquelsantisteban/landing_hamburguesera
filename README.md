@@ -6,6 +6,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `node v18.12.1`
+
+### `npm 8.19.2`
+
 ### `npm start`
 
 Runs the app in the development mode.\
