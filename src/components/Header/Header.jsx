@@ -19,7 +19,7 @@ export default function Header(){
             </section>
 
             <section className='relative'>
-                
+                <Carrusel />
             </section>
         </header>
     );
