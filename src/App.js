@@ -2,7 +2,7 @@
 import './App.css';
 import Header from './components/Header/Header';
 import Footer from './components/Footer';
-import ContactForm from './components/ContactForm';
+import ContactForm from './components/ContactForm/ContactForm';
 
 function App() {
   return (

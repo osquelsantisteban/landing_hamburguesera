@@ -8,7 +8,7 @@ function Footer() {
                 <a>POLITICA DE COOKIES</a> / 
                 <a>PRIVACIDAD</a>
             </h2>
-            <small>Todos los derechos reservados 2023 </small>
+            <small className='text-[#939393]'>Todos los derechos reservados 2023 </small>
         </footer>
     );
 }
