@@ -19,10 +19,10 @@ export default function Header(){
                 </div>
             </section>
 
-            <section className='relative'>
+            {/* <section className='relative'>
                 <Carrusel />
                 <Background />
-            </section>
+            </section> */}
         </header>
     );
 }
