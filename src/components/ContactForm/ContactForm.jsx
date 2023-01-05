@@ -19,14 +19,13 @@ function ContactForm() {
             // destructuracion para crear una variable con el valor como php con $$
             [e.target.name]: e.target.checked
         })
-        
     }
 
     const updCheckbox = () => {
-        setForm({
-            ...form,
-            term: !form.term
-        })       
+        // setForm({
+        //     ...form,
+        //     term: !form.term
+        // })       
         // console.log(form) 
     }
 
