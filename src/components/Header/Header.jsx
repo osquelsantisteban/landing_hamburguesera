@@ -18,9 +18,7 @@ export default function Header(){
                 </div>
             </section>
 
-            <section className='relative'>
-                <Carrusel />
-            </section>
+            
         </header>
     );
 }

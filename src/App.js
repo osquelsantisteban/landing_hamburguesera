@@ -2,13 +2,22 @@
 import './App.css';
 import Header from './components/Header/Header';
 import Background from './components/Background/Background';
+import Footer from './components/Footer';
+import ContactForm from './components/ContactForm';
+
 
 function App() {
   return (
-    <section className='relative'>
-      <Background />
+    <>
+    <main className=''>
       <Header />
-    </section>
+      <section className='w-[80%] m-auto relative'>
+        <Background />
+        <ContactForm></ContactForm>
+      </section>
+    </main>
+      <Footer />
+    </>
   );
 }
 
