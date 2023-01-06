@@ -2,9 +2,8 @@ body {
   margin: 0;
   background-color: black;
   color: white;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'inter';
+  src: url( '../public/fonts/Inter-Regular.ttf');
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -19,4 +18,40 @@ body #root {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1 {
+  font-family: 'coustard';
+  src: url( '../public/fonts/Coustard-Black.ttf');
+  size: 77px;
+}
+
+h2 {
+  font-family: 'coustard';
+  src: url( '../public/fonts/Coustard-Black.ttf');
+  size: 52px;
+}
+
+h3 {
+  font-family: 'inter';
+  src: url( '../public/fonts/Inter-Regular.ttf');
+  size: 26px;
+}
+
+p {
+  font-family: 'inter';
+  src: url( '../public/fonts/Inter-Regular.ttf');
+  size: 18px;
+}
+
+span {
+  font-family: 'inter';
+  src: url( '../public/fonts/Inter-Regular.ttf');
+  size: 26px;
+}
+
+small {
+  font-family: 'inter';
+  
+  size: 18px;
 }
