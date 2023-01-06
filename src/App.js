@@ -9,13 +9,13 @@ import ContactForm from './components/ContactForm';
 function App() {
   return (
     <>
-    <main className=''>
-      <Header />
-      <section className='w-[80%] m-auto relative'>
+      <main className=''>
         <Background />
-        <ContactForm></ContactForm>
-      </section>
-    </main>
+        <Header />
+        <section className='w-[80%] m-auto relative'>
+          <ContactForm></ContactForm>
+        </section>
+      </main>
       <Footer />
     </>
   );
