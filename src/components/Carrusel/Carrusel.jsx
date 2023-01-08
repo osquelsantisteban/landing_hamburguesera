@@ -1,5 +1,5 @@
 import React from 'react';
-import Promo1 from '../../images/Promo1.png';
+import Promo1 from '../../assets/images/Carrusel/especial_navidad.png';
 
 export default function Carrusel() {
     return (
