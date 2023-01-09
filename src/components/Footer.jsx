@@ -2,13 +2,13 @@ import React from 'react';
 
 function Footer() {
     return (        
-        <footer className='text-center mt-auto px-4'>
-            <h2>
+        <footer className='px-4 mt-auto text-center'>
+            <h3>
                 <a>AVISO LEGAL</a> / 
                 <a>POLITICA DE COOKIES</a> / 
                 <a>PRIVACIDAD</a>
-            </h2>
-            <small className='text-[#939393]'>Todos los derechos reservados 2023 </small>
+            </h3>
+            <small>Todos los derechos reservados 2023 </small>
         </footer>
     );
 }
