@@ -21,64 +21,66 @@ function ContactForm() {
         })
     }
 
-    const updCheckbox = () => {
-        // setForm({
-        //     ...form,
-        //     term: !form.term
-        // })       
-        // console.log(form) 
-    }
+    // const updCheckbox = () => {
+    //     setForm({
+    //         ...form,
+    //         term: !form.term
+    //     })       
+    //     // console.log(form) 
+    // }
 
     const formSubmit = (e) => {
         e.preventDefault()
-        console.log(form)
+        // console.log(form)
     }
 
     return ( 
-        <form className='flex flex-col gap-4'
-        onSubmit={formSubmit}>
-            <h2>Queremos escucharte</h2>
+        <section className=''>
+            <form className='flex flex-col gap-4'
+            onSubmit={formSubmit}>
+                <h2>Queremos escucharte</h2>
 
-            <input type="text" 
-            name="name"
-            className={FormStyle.inputs} 
-            value={form.name} 
-            placeholder="Dinos tu nombre" 
-            onChange={handleFormChange}/>
+                <input type="text" 
+                name="name"
+                className={FormStyle.inputs} 
+                value={form.name} 
+                placeholder="Dinos tu nombre" 
+                onChange={handleFormChange}/>
 
-            <input type="email" 
-            name="email" 
-            className={FormStyle.inputs}
-            placeholder='Tu correo electrónico'
-            value={form.email} 
-            onChange={handleFormChange}/>
+                <input type="email" 
+                name="email" 
+                className={FormStyle.inputs}
+                placeholder='Tu correo electrónico'
+                value={form.email} 
+                onChange={handleFormChange}/>
 
-            <input type="text" 
-            name="phone" 
-            className={FormStyle.inputs}
-            placeholder='Tu teléfono'
-            value={form.phone} 
-            onChange={handleFormChange}/>
+                <input type="text" 
+                name="phone" 
+                className={FormStyle.inputs}
+                placeholder='Tu teléfono'
+                value={form.phone} 
+                onChange={handleFormChange}/>
 
-            <textarea name="mg" 
-            className={FormStyle.inputs}
-            placeholder='Tu mensaje'
-            value={form.msg} 
-            onChange={handleFormChange}/>
-            
-            <div className='relative flex gap-3 items-center'>
-                <input type="checkbox" id='term' 
-                className={FormStyle.customCheckbox}
-                name="term" 
-                onChange={handleFormChecked} />
-                { form.term && <span onClick={updCheckbox}></span> }
-                <label htmlFor="term">He leído y acepto las políticas</label>
-            </div>
+                <textarea name="mg" 
+                className={FormStyle.inputs}
+                placeholder='Tu mensaje'
+                value={form.msg} 
+                onChange={handleFormChange}/>
+                
+                <div className='relative flex gap-3 items-center'>
+                    <input type="checkbox" id='term' 
+                    className={FormStyle.customCheckbox}
+                    name="term" 
+                    onChange={handleFormChecked} />
+                    { form.term && <span></span> }
+                    <label htmlFor="term">He leído y acepto las políticas</label>
+                </div>
 
-            <input type="submit" 
-            className={FormStyle.buttons}
-            value='Enviar' />
-        </form>
+                <input type="submit" 
+                className={FormStyle.buttons}
+                value='Enviar' />
+            </form>
+        </section>
      );
 }
 

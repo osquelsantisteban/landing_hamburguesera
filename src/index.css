@@ -20,38 +20,25 @@ code {
     monospace;
 }
 
-h1 {
+h1, h2 {
   font-family: 'coustard';
   src: url( '../public/fonts/Coustard-Black.ttf');
-  size: 77px;
+  letter-spacing: 0.05rem;
 }
 
-h2 {
-  font-family: 'coustard';
-  src: url( '../public/fonts/Coustard-Black.ttf');
-  size: 52px;
-}
-
-h3 {
+h3, p, span {
   font-family: 'inter';
   src: url( '../public/fonts/Inter-Regular.ttf');
-  size: 26px;
 }
 
-p {
-  font-family: 'inter';
-  src: url( '../public/fonts/Inter-Regular.ttf');
-  size: 18px;
-}
-
-span {
-  font-family: 'inter';
-  src: url( '../public/fonts/Inter-Regular.ttf');
-  size: 26px;
-}
+h1 { font-size: 77px; }
+h2 { font-size: 32px; }
+h3 { font-size: 26px; }
+p { font-size: 18px; }
+span { font-size: 26px; }
 
 small {
-  font-family: 'inter';
-  
-  size: 18px;
+  font-family: 'inter';  
+  font-size: 18px;
 }
+
