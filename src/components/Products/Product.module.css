@@ -1,5 +1,5 @@
 :root {
-    --diam: 210px;
+    --diam: 240px;
 }
 
 @keyframes rotation {
@@ -10,7 +10,7 @@
 .rotation:hover {
     animation-name: rotation;
     animation-duration: 4s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
 }
 
 .product {
