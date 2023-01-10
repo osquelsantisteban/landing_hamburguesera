@@ -17,7 +17,7 @@ export default function Section3(){
 
             <div className='hidden lg:block'>
                 <div className='flex lg:w-[418px] lg:h-[3px] float-right'>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="1258.067 2703.583 417.867 2.833"><path d="M1260.5 2706h415" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="#e6332a" fill="transparent" data-name="Línea 8"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="1258.067 2703.583 417.867 2.833"><path d="M1260.5 2706h415" strokeLinejoin="round" strokeLinecap="round" strokeWidth="2" stroke="#e6332a" fill="transparent" data-name="Línea 8"/></svg>
                 </div>
             </div>
             
