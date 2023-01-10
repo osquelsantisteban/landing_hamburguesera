@@ -18,10 +18,12 @@ function App() {
       <main className=''>
         {/* <Background /> */}
         <Header />
-        <section className='flex flex-col w-8/12 m-auto relative pt-10'>
+        <section className='relative flex flex-col w-8/12 pt-10 m-auto'>
           <Section2 />
           <Section3 />
           <Section4 />
+          <Spaces space={300} hasArrow={true} arrow={arrow.ARROW_RIGHT} position={position.right} />
+
           <Spaces space={300} hasArrow={true} arrow={arrow.ARROW_STRAIGHT} position={position.left} />
           <ProductsList></ProductsList>
           <Spaces space={300} hasArrow={true} arrow={arrow.ARROW_RIGHT} position={position.right} />
