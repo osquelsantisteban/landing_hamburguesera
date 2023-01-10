@@ -17,7 +17,7 @@ function App() {
       <main className=''>
         {/* <Background /> */}
         <Header />
-        <section className='flex flex-col gap-y-[10rem] w-8/12 m-auto relative pt-10'>
+        <section className='flex flex-col lg:gap-y-[10rem] w-8/12 m-auto relative pt-10'>
           <Section2 />
           <Section3 />
           <Section4 />
