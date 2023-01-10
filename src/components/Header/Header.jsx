@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../images/Logo Impasto.png' 
+import logo from '../../assets/images/Logo white.png' 
 import BotonHeader from './BotonHeader';
 import Carrusel from '../Carrusel/Carrusel';
 

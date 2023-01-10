@@ -1,6 +1,6 @@
 import React from 'react';
-import Vaso from '../../images/Vaso.png';
-import Pizza from '../../images/Pizza.png';
+import Vaso from '../../assets/images/Vaso.png';
+import Pizza from '../../assets/images/Pizza.png';
 
 export default function Background(){
     return (
