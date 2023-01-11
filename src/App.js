@@ -11,6 +11,7 @@ import ProductsList from './components/Products/ProductList';
 import Section3 from './components/Section3/Section3';
 import Section4 from './components/Section4/Section4';
 import Spaces from './components/Spaces/Spaces';
+import Slider from './components/Carrusel/Slider';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <main className=''>
         {/* <Background /> */}
         <Header />
+        <Slider />
         <section className='relative flex flex-col w-8/12 pt-10 m-auto'>
           <Section2 />
           <Section3 />
