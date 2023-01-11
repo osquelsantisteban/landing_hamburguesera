@@ -12,13 +12,13 @@ export default function Slider(props) {
     
     const [activeIndex, setActiveIndex] = useState(0);
     
-    /* useEffect( 
+    useEffect( 
         () => {
             const interval = setInterval(() => { 
                 setActiveIndex(activeIndex === len ? 0 : activeIndex +1)            
             }, 5000);
         return () => clearInterval(interval)
-    },[activeIndex]) */
+    },[activeIndex])
 
     return (
         <section className='slider-container'>
