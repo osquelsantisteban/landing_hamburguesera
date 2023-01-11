@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import SliderContent from './SliderContent';
 import imageSlider from './imageSlider';
 import Arrows from './Arrows';
@@ -11,6 +11,14 @@ const len = imageSlider.length -1;
 export default function Slider(props) {
     
     const [activeIndex, setActiveIndex] = useState(0);
+    
+    /* useEffect( 
+        () => {
+            const interval = setInterval(() => { 
+                setActiveIndex(activeIndex === len ? 0 : activeIndex +1)            
+            }, 5000);
+        return () => clearInterval(interval)
+    },[activeIndex]) */
 
     return (
         <section className='slider-container'>
@@ -29,7 +37,7 @@ export default function Slider(props) {
             <Dots 
                 activeIndex={activeIndex} 
                 imageSlider={imageSlider} 
-                onClick={ (activeIndex) => setActiveIndex(setActiveIndex)}
+                onclick={ (activeIndex) => setActiveIndex(activeIndex)}
             />
         </section>
     );

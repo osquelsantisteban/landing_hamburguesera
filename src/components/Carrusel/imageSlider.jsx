@@ -8,5 +8,13 @@ export default [{
 },{
     title: 'Second Slider Image',
     descripcion: 'Second Slider Image',
-    url: 'https://mdbootstrap.com/img/Photos/Slides/img%20(133).jpg'
+    url: 'https://mdbootstrap.com/img/Photos/Slides/img%20(134).jpg'
+},{
+    title: 'Second Slider Image',
+    descripcion: 'Second Slider Image',
+    url: 'https://mdbootstrap.com/img/Photos/Slides/img%20(135).jpg'
+},{
+    title: 'Second Slider Image',
+    descripcion: 'Second Slider Image',
+    url: 'https://mdbootstrap.com/img/Photos/Slides/img%20(136).jpg'
 }];
