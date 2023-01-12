@@ -77,7 +77,7 @@ function ContactForm() {
                 </div>
 
                 <input type="submit" 
-                className={FormStyle.buttons}
+                className='btn m-auto cursor-pointer'
                 value='Enviar' />
             </form>
         </section>
