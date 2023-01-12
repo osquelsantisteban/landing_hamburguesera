@@ -11,6 +11,7 @@ import ProductsList from './components/Products/ProductList';
 import Section3 from './components/Section3/Section3';
 import Section4 from './components/Section4/Section4';
 import Spaces from './components/Spaces/Spaces';
+import Slider from './components/Carrusel/Slider';
 import Offer from './components/Offer/Offer';
 
 function App() {
@@ -19,10 +20,12 @@ function App() {
       <main className=''>
         {/* <Background /> */}
         <Header />
-        <section className='flex flex-col w-8/12 m-auto relative pt-10'>
-          {/* <Section2 />
-          <Section3 />q
-          <Section4 /> */}
+        <Slider />
+        <section className='relative flex flex-col w-8/12 pt-10 m-auto'>
+          <Section2 />
+          <Section3 />
+          <Section4 />
+          <Spaces space={300} hasArrow={true} arrow={arrow.ARROW_RIGHT} position={position.right} />
           <Offer/>
           <Spaces space={300} hasArrow={true} arrow={arrow.ARROW_STRAIGHT} position={position.left} />
           {/* Ver Carta */}
