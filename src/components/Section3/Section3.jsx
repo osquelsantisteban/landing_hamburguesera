@@ -4,7 +4,7 @@ export default function Section3(){
     return (
         <section className='flex flex-col mb-[90px] lg:mb-[149px]'>
                 
-            <div className='mb-44'>
+            <div className='lg:mb-44'>
 
                 <div className='flex flex-col w-full'>
                     <h2 className='text-2xl lg:text-5xl pb-[25px] lg:pb-[50px]'>Abrimos</h2>
