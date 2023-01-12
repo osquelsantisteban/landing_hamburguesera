@@ -9,14 +9,6 @@
     color: black;
 }
 
-.buttons {
-    background-color: transparent;
-    border-radius: var(--radius);
-    border: 1px solid var(--red);
-    margin: auto;
-    padding: .50em 3em;
-}
-
 .customCheckbox {
     appearance: none;
     background-color: #000;
