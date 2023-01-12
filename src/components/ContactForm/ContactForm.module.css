@@ -4,9 +4,11 @@
 }
 
 .inputs {
+    border: 1px solid white;
     border-radius: var(--radius);
     padding: 5px 12px;
     color: black;
+    background-color: transparent;
 }
 
 .buttons {

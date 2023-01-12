@@ -24,6 +24,7 @@ h1, h2 {
   font-family: 'coustard';
   src: url( '../public/fonts/Coustard-Black.ttf');
   letter-spacing: 0.05rem;
+  color: #e6332a;
 }
 
 h3, p, span {
