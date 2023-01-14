@@ -7,7 +7,7 @@ export default function Section3(){
             <div className='lg:mb-44'>
 
                 <div className='flex flex-col w-full'>
-                    <h2 className='text-2xl lg:text-5xl pb-[25px] lg:pb-[50px]'>Abrimos</h2>
+                    <h2 className='text-2xl lg:text-5xl pb-[25px] lg:pb-[50px] text-red-strong'>Abrimos</h2>
                     <div className='flex flex-row justify-between w-full lg:w-[500px]'>
                         <p className='text-base lg:text-2xl'>Lunes a Domingos</p>
                         <p className='text-base lg:text-2xl'>13:00h a 0:00h</p>
