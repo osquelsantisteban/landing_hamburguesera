@@ -1,4 +1,7 @@
 import React from 'react';
+import {arrow, position} from 'components/config';
+import Spaces from 'components/Spaces/Spaces';
+
 
 export default function Section2(){
     return (
@@ -22,9 +25,7 @@ export default function Section2(){
             </div>
 
             <div className='flex justify-between mt-20'>
-                <div className='flex w-16 h-16 -z-30 lg:w-72 lg:h-72'>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="387.567 1857.083 273.367 272.85"><path d="m390 1859.5 270.5 270" strokeLinejoin="round" strokeLinecap="round" strokeWidth="2" stroke="#e6332a" fill="transparent" data-name="Línea 7"/></svg>
-                </div>
+                <Spaces space={300} hasArrow={true} arrow={arrow.ARROW_LEFTT} position={position.right} />
                 <div className='w-60 lg:w-[560px]'>
                     <h3 className='text-base lg:text-2xl'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</h3>
                 </div>
