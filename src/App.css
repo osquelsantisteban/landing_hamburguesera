@@ -44,7 +44,11 @@
   }
 }
 
-
+.bordeDifuminado:hover{
+  border: 2px solid rgb(230 51 42 / 1);
+  border-color: rgb(230 51 42 / 1);
+  box-shadow: inset 0 0 4px 4px rgb(230 51 42 / 0.5);
+}
 /* General stiles */
 /* h2 {
   size: 10rem !important;

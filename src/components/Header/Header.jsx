@@ -1,8 +1,6 @@
 import React from 'react';
 import Logo from './Logo'; 
 import BotonHeader from './BotonHeader';
-import './Header.css';
-
 
 export default function Header(){
     return (
