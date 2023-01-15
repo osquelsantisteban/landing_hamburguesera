@@ -1,8 +1,8 @@
 import React from 'react';
-import Logo from './Logo'; 
+import Logo from './Logo';
 import BotonHeader from './BotonHeader';
 
-export default function Header(){
+export default function Header() {
     return (
         <header className='fixed w-full z-40 shadow-[0_0_15px_3px_#000]'>
             <section className='flex h-[55px] bg-black items-center'>
@@ -11,12 +11,11 @@ export default function Header(){
                     <div className=''>
                         <Logo />
                     </div>
-                    
+
                     <BotonHeader />
                 </div>
-            </section>
 
-            
+            </section>
         </header>
     );
 }

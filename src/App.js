@@ -25,14 +25,17 @@ function App() {
         <section className='relative flex flex-col w-8/12 pt-10 m-auto'>
           <Section2 />
           <Section3 />
+          <div className='hidden lg:block'>
+            <Spaces space={300} hasArrow={true} arrow={arrow.ARROW_STRAIGHT} position={position.right} />        
+          </div>
           <Section4 />
-          <Spaces space={300} hasArrow={true} arrow={arrow.ARROW_RIGHT} position={position.right} />
+          <Spaces space={300} hasArrow={true} arrow={arrow.ARROW_LEFTT} position={position.right} />
           <Offer/>
           <Spaces space={300} hasArrow={true} arrow={arrow.ARROW_STRAIGHT} position={position.left} />
           {/* Ver Carta */}
           <section className='flex justify-around'>
             <small>Vale, si has llegado hasta aquí <br/> es que quieres mira nuestra carta </small>
-            <button type="button" className='btn mt-auto'>ver carta</button>
+            <button type="button" className='mt-auto btn'>ver carta</button>
           </section>
 
           <Spaces space={300} />
