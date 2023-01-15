@@ -1,19 +1,21 @@
 :root {
     --red: #e6332a;
     --radius: 20px;
+    --size: 1.5em;
+    --size-mob: 0.8em;
 }
 
 .inputs {
     border: 1px solid white;
     border-radius: var(--radius);
     padding: 5px 12px;
-    color: black;
+    color: transparent;
     background-color: transparent;
 }
 
 .customCheckbox {
     appearance: none;
-    background-color: #000;
+    background-color: transparent;
     margin: 0;
     font: inherit;
     color: currentColor;
@@ -26,10 +28,17 @@
 }
 .customCheckbox + span {
     position: absolute;
-    width: 1.5em;
-    height: 1.5em;
+    width: var(--size);
+    height: var(--size);
     background-color: rgb(243, 240, 240);
     clip-path: polygon(9.73% 47.21%, 0px 65%, 50% 100%, 100% 16%, 82.14% 6.41%, 44.07% 73.75%);
     top: -6px;
     left: -2px;
+}
+
+@media (max-width: 648px) {
+    .customCheckbox + span {
+        width: var(--size-mob);
+        height: var(--size-mob);
+    }
 }

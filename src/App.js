@@ -34,14 +34,18 @@ function App() {
           <Offer/>
           <Spaces space={isMobile ? 90 : 300} hasArrow={true} arrow={arrow.ARROW_STRAIGHT} position={position.left} />
           {/* Ver Carta */}
-          <section className='flex justify-around'>
+          <section className='flex md:flex-row flex-col gap-10 items-center md:justify-around'>
             <small>Vale, si has llegado hasta aquí <br/> es que quieres mira nuestra carta </small>
-            <button type="button" className='mt-auto btn'>ver carta</button>
+            <button type="button" className='mt-auto btn bordeDifuminado'>ver carta</button>
           </section>
 
           <Spaces space={isMobile ? 90 : 300} />
           <ProductsList></ProductsList>
-          <Spaces space={isMobile ? 90 : 300} hasArrow={true} arrow={arrow.ARROW_RIGHT} position={position.right} />
+          {
+            isMobile 
+            ? <Spaces space={90} hasArrow={true} arrow={arrow.ARROW_STRAIGHT} position={position.right} />
+            : <Spaces space={300} hasArrow={true} arrow={arrow.ARROW_RIGHT} position={position.right} />
+          }
           <MapZone></MapZone>
           <Spaces space={isMobile ? 90 : 300} />
           <ContactForm></ContactForm>

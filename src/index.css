@@ -46,7 +46,7 @@ small {
 @media (max-width: 648px) {
   h1 { font-size: 77px; }
   h2 { font-size: 22px; }
-  h3 { font-size: 26px; }
+  h3 { font-size: 16px; }
   p { font-size: 18px; }
   span { font-size: 26px; } 
 }

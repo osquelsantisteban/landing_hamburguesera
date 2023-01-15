@@ -1,5 +1,6 @@
 :root {
     --diam: 240px;
+    --diam-mob: 90%;
 }
 
 @keyframes rotation {
@@ -34,4 +35,13 @@
 }
 .turn4 {
     transform: rotate(10deg);
+}
+
+@media (max-width: 648px) {
+    .product {
+        top: 3px;
+        left: 5px;
+        width: var(--diam-mob);
+        height: var(--diam-mob);
+    }
 }

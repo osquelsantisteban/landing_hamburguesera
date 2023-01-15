@@ -9,3 +9,9 @@
     scale: 0.9;
     border-radius: 30px;
 }
+
+@media (max-width: 648px) {
+    .mapImg {
+        top: 10px;
+    }
+}

@@ -10,11 +10,13 @@ function Product({pos}) {
         setRotate(`turn${pos}`)
     },[pos])
 
+    const isMobile = (window.innerWidth <= 648)
+
     return ( 
         <a href='#' className={ProductStyle.rotation}>
             <figure className='relative'>
                 <img id={rotate} className={ProductStyle[`${rotate}`]} src={BackImg} alt="" width='90%' />
-                <img 
+                <img
                 className={ProductStyle.product}
                 src={ProductImg} alt="" />
             </figure>
