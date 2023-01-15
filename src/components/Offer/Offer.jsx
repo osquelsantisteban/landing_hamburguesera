@@ -14,10 +14,12 @@ function Offer({imgdir, text}) {
 }
 
 function Offers() {
+    const isMobile = (window.innerWidth <= 648)
+
     return ( 
-        <section className='w-[80%] m-auto z-20'>
+        <section className='w-[80%] md:m-auto z-20'>
             <h2>Esto es lo que <br />tenemos para ti</h2>
-            <Spaces space={150}/>
+            <Spaces space={(isMobile) ? 40 : 150}/>
             <div className='flex md:flex-row flex-col gap-10 justify-between'>
                 <Offer imgdir={prod1Img} text={'Hamburguesas cerradas'}></Offer>
                 <Offer imgdir={prod2Img} text={'Pizzas'}></Offer>

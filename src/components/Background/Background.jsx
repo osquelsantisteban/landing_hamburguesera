@@ -3,13 +3,13 @@ import backleft from './assets/middle-back-left.png';
 import backright from './assets/middle-back-right.png';
 import back from './assets/back.png'
 import backMob from './assets/back-mobile.png'
-import middleMob from './assets/middle-back-mobile.png'
+import middleMob from './assets/back-mobile.svg'
 
 export function BackFood() {
     const isMobile = (window.innerWidth <= 648)
 console.log(isMobile)
     return <>
-        <section className='fixed w-full bg-transparent z-20 pt-10'>
+        <section className='fixed w-full bg-transparent z-20 pt-14'>
                 {
                     isMobile 
                     ? <div className={`relative flex`}>
@@ -32,7 +32,7 @@ console.log(isMobile)
 
 export function Background(){
     return (
-        <section className={`fixed w-full md:bg-[url(${back})] bg-[url(${backMob})] h-[100vh] z-0 pt-10`}>
+        <section className={`fixed w-full md:bg-[url(${back})] bg-[url(${backMob})] h-[100vh] z-0 pt-14`}>
         </section>
     );
 }

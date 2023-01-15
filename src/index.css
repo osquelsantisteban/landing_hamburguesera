@@ -43,3 +43,12 @@ small {
   font-size: 18px;
 }
 
+@media (max-width: 648px) {
+  h1 { font-size: 77px; }
+  h2 { font-size: 22px; }
+  h3 { font-size: 26px; }
+  p { font-size: 18px; }
+  span { font-size: 26px; } 
+}
+
+

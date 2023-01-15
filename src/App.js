@@ -15,33 +15,34 @@ import Slider from 'components/Carrusel/Slider';
 import Offer from 'components/Offer/Offer';
 
 function App() {
+  const isMobile = (window.innerWidth <= 648)
   return (
     <>
       <main className="">
         <Header />
         <Background />
-        <BackFood />
+        {/* <BackFood /> */}
         {/* <Slider /> */}
-        <section className='relative flex flex-col w-8/12 pt-10 m-auto'>
+        <section className='relative flex flex-col w-10/12 md:w-8/12 pt-10 m-auto'>
           <Section2 />
           <Section3 />
           <Section4 />
-          <Spaces space={300} hasArrow={true} arrow={arrow.ARROW_RIGHT} position={position.right} />
+          <Spaces space={isMobile ? 90 : 300} hasArrow={true} arrow={arrow.ARROW_RIGHT} position={position.right} />
           <Offer/>
-          <Spaces space={300} hasArrow={true} arrow={arrow.ARROW_STRAIGHT} position={position.left} />
+          <Spaces space={isMobile ? 90 : 300} hasArrow={true} arrow={arrow.ARROW_STRAIGHT} position={position.left} />
           {/* Ver Carta */}
           <section className='flex justify-around'>
             <small>Vale, si has llegado hasta aquí <br/> es que quieres mira nuestra carta </small>
             <button type="button" className='btn mt-auto'>ver carta</button>
           </section>
 
-          <Spaces space={300} />
+          <Spaces space={isMobile ? 90 : 300} />
           <ProductsList></ProductsList>
-          <Spaces space={300} hasArrow={true} arrow={arrow.ARROW_RIGHT} position={position.right} />
+          <Spaces space={isMobile ? 90 : 300} hasArrow={true} arrow={arrow.ARROW_RIGHT} position={position.right} />
           <MapZone></MapZone>
-          <Spaces space={300} />
+          <Spaces space={isMobile ? 90 : 300} />
           <ContactForm></ContactForm>
-          <Spaces space={300} />
+          <Spaces space={isMobile ? 90 : 300} />
         </section>
       </main>
       <Footer />
