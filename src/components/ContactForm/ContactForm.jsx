@@ -67,7 +67,7 @@ function ContactForm() {
                 value={form.msg} 
                 onChange={handleFormChange}/>
                 
-                <div className='relative flex gap-3 items-center'>
+                <div className='relative flex items-center gap-3'>
                     <input type="checkbox" id='term' 
                     className={FormStyle.customCheckbox}
                     name="term" 
@@ -77,7 +77,7 @@ function ContactForm() {
                 </div>
 
                 <input type="submit" 
-                className='btn m-auto cursor-pointer bordeDifuminado'
+                className='m-auto cursor-pointer btn bordeDifuminado'
                 value='Enviar' />
             </form>
         </section>
