@@ -2,7 +2,7 @@
 import './App.css';
 import {arrow, position} from 'components/config';
 import Header from 'components/Header/Header';
-import Background from 'components/Background/Background';
+import {Background, BackFood} from 'components/Background/Background';
 import Footer from 'components/Footer';
 import ContactForm from 'components/ContactForm/ContactForm';
 import MapZone from 'components/Map/Map';
@@ -17,10 +17,11 @@ import Offer from 'components/Offer/Offer';
 function App() {
   return (
     <>
-      <main className=''>
-        {/* <Background /> */}
+      <main className="">
         <Header />
-        <Slider />
+        <Background />
+        <BackFood />
+        {/* <Slider /> */}
         <section className='relative flex flex-col w-8/12 pt-10 m-auto'>
           <Section2 />
           <Section3 />

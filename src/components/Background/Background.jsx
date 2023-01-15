@@ -1,33 +1,26 @@
 import React from 'react';
-import Vaso from '../../assets/images/Vaso.png';
-import Pizza from '../../assets/images/Pizza.png';
+import backleft from './assets/middle-back-left.png';
+import backright from './assets/middle-back-right.png';
+import back from './assets/back.png'
 
-export default function Background(){
+export function BackFood() {
+    return <>
+        <section className='fixed w-full bg-black z-20'>
+            <div className={`relative flex`}>
+                <figure className='absolute left-[-159px]'>
+                    <img src={backleft} alt=""  width="89%" />
+                </figure>
+                <figure className='absolute right-[-250px]'>
+                    <img src={backright} alt=""  width="80%" />
+                </figure>
+            </div>
+        </section>
+    </>
+}
+
+export function Background(){
     return (
-        <div className='fixed w-full bg-black -z-10'>
-            
-                <div className='absolute'>
-                    <div className='absolute h-[755px] w-[683px] -left-52 -top-44'>
-                        <img src={Vaso} alt=""  className='' />
-                    </div>
-                    
-                    <div className='absolute h-[556px] w-[561px] rotate-90 lg:left-24 lg:top-96'>
-                        <img src={Pizza} alt=""  className='' />
-                    </div>
-
-                    <div className='absolute h-[440px] w-[431px] lg:left-9 lg:top-[601px]'>
-                        <img src={Pizza} alt=""  className='' />
-                    </div>
-
-                    <div className='absolute h-[455px] w-[446px] lg:left-[1000px] lg:top-[106px]'>
-                        <img src={Pizza} alt=""  className='' />
-                    </div>
-                    
-                    <div className='absolute h-[772px] w-[665px] -rotate-45 lg:left-[1150px] lg:top-[308px]'>
-                        <img src={Vaso} alt=""  className='' />
-                    </div>
-                </div>
-                
-        </div>
+        <section className={`fixed w-full bg-[url(${back})] h-[100vh] z-0`}>
+        </section>
     );
 }

@@ -35,7 +35,7 @@ function ContactForm() {
     }
 
     return ( 
-        <section className=''>
+        <section className='z-20'>
             <form className='flex flex-col gap-4'
             onSubmit={formSubmit}>
                 <h2>Queremos escucharte</h2>
@@ -77,7 +77,7 @@ function ContactForm() {
                 </div>
 
                 <input type="submit" 
-                className='btn m-auto cursor-pointer'
+                className='btn m-auto cursor-pointer bordeDifuminado'
                 value='Enviar' />
             </form>
         </section>
