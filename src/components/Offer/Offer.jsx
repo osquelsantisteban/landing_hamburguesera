@@ -15,7 +15,7 @@ function Offer({imgdir, text}) {
 
 function Offers() {
     return ( 
-        <section className='w-[80%] m-auto'>
+        <section className='w-[80%] m-auto z-20'>
             <h2>Esto es lo que <br />tenemos para ti</h2>
             <Spaces space={150}/>
             <div className='flex md:flex-row flex-col gap-10 justify-between'>

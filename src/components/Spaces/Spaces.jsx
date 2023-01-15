@@ -27,7 +27,8 @@ function Spaces({space, hasArrow, arrow, position}) {
     const div_style = {
         display: 'flex',
         height: `${space}px`,
-        justifyContent: position
+        justifyContent: position,
+        zIndex: '10'
     }
 
     return ( 
