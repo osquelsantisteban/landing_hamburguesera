@@ -3,12 +3,12 @@ import React from 'react';
 function Footer() {
     return (        
         <footer className='px-4 mt-auto text-center'>
-            <h3>
+            <h4 className='lg:text-2xl'>
                 <a>AVISO LEGAL</a> / 
                 <a>POLITICA DE COOKIES</a> / 
                 <a>PRIVACIDAD</a>
-            </h3>
-            <small>Todos los derechos reservados 2023 </small>
+            </h4>
+            <small className='text-sm lg:text-lg'>Todos los derechos reservados 2023 </small>
         </footer>
     );
 }
