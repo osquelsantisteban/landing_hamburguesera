@@ -3,7 +3,6 @@ body {
   background-color: black;
   color: white;
   font-family: 'inter';
-  src: url( '../public/fonts/Inter-Regular.ttf');
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -20,16 +19,25 @@ code {
     monospace;
 }
 
+@font-face {
+  font-family: 'coustard';
+  src: local('coustard'),
+    url( './assets/fonts/Coustard-Black.ttf') format("truetype");
+}
+@font-face {
+  font-family: 'inter';
+  src: local('coustard'),
+    url( './assets/fonts/Inter-Regular.ttf') format("truetype");
+}
+
 h1, h2 {
   font-family: 'coustard';
-  src: url( '../public/fonts/Coustard-Black.ttf');
   letter-spacing: 0.05rem;
   color: #e6332a;
 }
 
 h3, p, span {
   font-family: 'inter';
-  src: url( '../public/fonts/Inter-Regular.ttf');
 }
 
 h1 { font-size: 77px; }
@@ -44,7 +52,7 @@ small {
 }
 
 @media (max-width: 648px) {
-  h1 { font-size: 77px; }
+  h1 { font-size: 26px; }
   h2 { font-size: 22px; }
   h3 { font-size: 16px; }
   p { font-size: 18px; }
