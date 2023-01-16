@@ -15,7 +15,7 @@ function Product({pos}) {
     return ( 
         <a href='#' className={ProductStyle.rotation}>
             <figure className='relative'>
-                <img id={rotate} className={ProductStyle[`${rotate}`]} src={BackImg} alt="" width='90%' />
+                <img id={rotate} className={ProductStyle[`${rotate}`]} src={BackImg} alt="" width={isMobile ? '90%' : '55%'} />
                 <img
                 className={ProductStyle.product}
                 src={ProductImg} alt="" />
