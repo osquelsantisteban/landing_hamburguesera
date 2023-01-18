@@ -1,8 +1,8 @@
 import React from 'react';
 import Spaces from '../Spaces/Spaces';
-import prod1Img from './assets/product 1.png';
-import prod2Img from './assets/product 2.png';
-import prod3Img from './assets/product 3.png';
+import prod1Img from './assets/product_1.png';
+import prod2Img from './assets/product_2.png';
+import prod3Img from './assets/product_3.png';
 
 function Offer({imgdir, text}) {
     return (
