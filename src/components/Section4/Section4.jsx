@@ -2,12 +2,12 @@ import React from 'react';
 
 export default function Section4() {
     return (
-        <section className='relative mb-4'>
+        <section className='relative mb-32 lg:mb-4'>
             <div className='w-[706px]'>
                 <h2 className='w-64 text-2xl lg:text-5xl mb-14 h-14 lg:w-auto lg:h-auto text-red-strong'>¿Qué es lo diferente?</h2>
             </div>
 
-            <div className='relative flex flex-col gap-48 lg:grid lg:items-center lg:grid-cols-4 lg:gap-0'>
+            <div className='relative flex flex-col gap-32 lg:grid lg:items-center lg:grid-cols-4 lg:gap-0'>
                 <div className='relative flex flex-row h-36 lg:h-36 lg:col-span-2 lg:col-start-3 lg:my-28'>
                     <div className='flex w-[48px] h-[64px] lg:w-[100px] lg:h-[137px]'>
                         <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="1861.5 3075.333 101 137.017"><image xlinkHref="data:image/png;base64,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" dataname="1" transform="translate(1862.5 3076.344)"/></svg>
@@ -26,11 +26,7 @@ export default function Section4() {
 
             </div>
 
-            <div className='relative grid items-center grid-cols-8 lg:grid-cols-4'>
-                
-
-                
-            </div>
+            
 
         </section>
     );

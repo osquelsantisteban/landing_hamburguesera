@@ -1,4 +1,3 @@
-import React from 'react';
 import Promo1 from '../../assets/images/Carrusel/especial_navidad.png';
 
 export default [{

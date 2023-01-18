@@ -4,7 +4,7 @@ function Arrow({arrow, isMobile}) {
     return <>
         {
             (arrow === 'left') &&
-            <svg xmlns="http://www.w3.org/2000/svg" width={ isMobile ? '30%' : '15%'} viewBox="387.567 1857.083 273.367 272.85">
+            <svg xmlns="http://www.w3.org/2000/svg" width={ isMobile ? '50%' : '100%'} viewBox="387.567 1857.083 273.367 272.85">
                 <path d="m390 1859.5 270.5 270" strokeLinejoin="round" strokeLinecap="round" strokeWidth={ isMobile ? '6' : '2'} stroke="#e6332a" fill="transparent" dataname="Línea 7"/>
             </svg>
         }
