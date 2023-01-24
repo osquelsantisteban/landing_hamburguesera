@@ -34,7 +34,7 @@ function App() {
           <Offer/>
           <Spaces space={isMobile ? 90 : 300} hasArrow={true} arrow={arrow.ARROW_STRAIGHT} position={position.left} />
           {/* Ver Carta */}
-          <section className='flex md:flex-row flex-col gap-10 items-center md:justify-around'>
+          <section className='flex md:flex-row flex-col gap-10 items-center md:justify-around z-20'>
             <small>Vale, si has llegado hasta aquí <br/> es que quieres mira nuestra carta </small>
             <button type="button" className='mt-auto btn bordeDifuminado'>ver carta</button>
           </section>

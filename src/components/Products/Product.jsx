@@ -4,23 +4,22 @@ import BackImg from './assets/back.png'
 import ProductStyle from './Product.module.css'
 
 function Product({pos}) {
-    const [rotate, setRotate] = useState('turn1')
+    const [rotate, setRotate] = useState('turn1'),
+        isMobile = (window.innerWidth <= 648)
 
     useEffect(() => {
         setRotate(`turn${pos}`)
     },[pos])
-
-    // const isMobile = (window.innerWidth <= 648)
-
+    
     return ( 
-        <div className={ProductStyle.rotation}>
-            <figure className='relative'>
-                <img id={rotate} className={ProductStyle[`${rotate}`]} src={BackImg} alt="" width='90%' />
-                <img
-                className={ProductStyle.product}
-                src={ProductImg} alt="" />
+        <a href='/' className={ProductStyle.rotation}>
+            {/* <figure></figure> */}
+            <figure className='relative '>
+            <img id={rotate} className={ProductStyle[`${rotate}`]} src={BackImg} alt="" width={isMobile ? '90%' : '100%'} />
+                <img className={ProductStyle.product}
+                src={ProductImg} alt="" width={isMobile ? '90%' : '20%'} />
             </figure>
-        </div>
+        </a>
      );
 }
 

@@ -23,7 +23,7 @@ function Arrow({arrow, isMobile}) {
     </>
 }
 
-function Spaces({space, hasArrow, arrow, position}) {
+function Spaces({space, hasArrow, arrow, position, clas}) {
     const isMobile = (window.innerWidth <= 648)
     
     const div_style = {
@@ -34,7 +34,7 @@ function Spaces({space, hasArrow, arrow, position}) {
     }
 
     return ( 
-        <div style={div_style}>
+        <div style={div_style} className={clas}>
             { hasArrow && <Arrow arrow={arrow} isMobile={isMobile}></Arrow> }
         </div>
      );
