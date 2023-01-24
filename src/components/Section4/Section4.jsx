@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Section4() {
     return (
-        <section className='relative mb-32 lg:mb-4'>
+        <section className='relative mb-32 lg:mb-4 z-20'>
             <div className='w-[706px]'>
                 <h2 className='w-64 text-2xl lg:text-5xl mb-14 h-14 lg:w-auto lg:h-auto text-red-strong'>¿Qué es lo diferente?</h2>
             </div>

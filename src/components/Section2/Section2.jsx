@@ -6,7 +6,7 @@ import Spaces from 'components/Spaces/Spaces';
 export default function Section2() {
     return (
         <>
-            <section className='flex flex-col my-10 mb-20 '>
+            <section className='flex flex-col my-10 mb-20 z-20'>
 
                 <div className='mb-20'>
                     <div className='relative z-0'>
@@ -24,11 +24,11 @@ export default function Section2() {
                     </div>
                 </div>
 
-                <div className='flex flex-row items-center justify-between flex-1 mt-20'>
+                <div className='flex flex-row items-center mt-20'>
                     
-                    <Spaces space={300} hasArrow={true} arrow={arrow.ARROW_LEFTT} position={position.left} />
+                    <Spaces clas="w-1/12 md:w-2/4" space={300} hasArrow={true} arrow={arrow.ARROW_LEFTT} position={position.left} />
 
-                    <div className='w-full lg:w-1/2'>
+                    <div className='w-11/12 md:w-2/4'>
                         <h3 className='text-base lg:text-2xl'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</h3>
                     </div>
                 </div>

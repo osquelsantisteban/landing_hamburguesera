@@ -1,6 +1,6 @@
 import Promo1 from '../../assets/images/Carrusel/especial_navidad.png';
 
-export default [{
+export const imageSlider = [{
     title: 'First Slider Image',
     descripcion: 'First Slider Image',
     url: Promo1
