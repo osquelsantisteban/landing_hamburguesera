@@ -2,7 +2,7 @@
 import './App.css';
 import {arrow, position} from 'components/config';
 import Header from 'components/Header/Header';
-import {Background, BackFood} from 'components/Background/Background';
+import {Background, BackFood } from 'components/Background/Background';
 import Footer from 'components/Footer';
 import ContactForm from 'components/ContactForm/ContactForm';
 import MapZone from 'components/Map/Map';
@@ -11,7 +11,7 @@ import ProductsList from 'components/Products/ProductList';
 import Section3 from 'components/Section3/Section3';
 import Section4 from 'components/Section4/Section4';
 import Spaces from 'components/Spaces/Spaces';
-import Slider from 'components/Carrusel/Slider';
+// import Slider from 'components/Carrusel/Slider';
 import Offer from 'components/Offer/Offer';
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
       <main className="">
         <Header />
         <Background />
-        {/* <BackFood /> */}
+        <BackFood />
         {/* <Slider /> */}
         <section className='relative flex flex-col w-10/12 md:w-8/12 pt-10 m-auto'>
           <Section2 />
