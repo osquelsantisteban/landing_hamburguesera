@@ -11,7 +11,7 @@ import ProductsList from 'components/Products/ProductList';
 import Section3 from 'components/Section3/Section3';
 import Section4 from 'components/Section4/Section4';
 import Spaces from 'components/Spaces/Spaces';
-// import Slider from 'components/Carrusel/Slider';
+import Slider from 'components/Carrusel/Slider';
 import Offer from 'components/Offer/Offer';
 
 function App() {
