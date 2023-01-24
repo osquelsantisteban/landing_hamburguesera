@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/landing_hamburguesera/static/css/main.e9376058.css",
-    "main.js": "/landing_hamburguesera/static/js/main.d7c7cb98.js",
+    "main.css": "/landing_hamburguesera/static/css/main.dd555ffe.css",
+    "main.js": "/landing_hamburguesera/static/js/main.48c12c99.js",
     "static/js/787.dd2f5b95.chunk.js": "/landing_hamburguesera/static/js/787.dd2f5b95.chunk.js",
+    "static/media/food-left.png": "/landing_hamburguesera/static/media/food-left.19216382aaceca3fdce5.png",
     "static/media/mapa.png": "/landing_hamburguesera/static/media/mapa.de409794e3691fc63aab.png",
-    "static/media/especial_navidad.png": "/landing_hamburguesera/static/media/especial_navidad.4fe6603b23d5946f96c7.png",
     "static/media/Inter-Regular.ttf": "/landing_hamburguesera/static/media/Inter-Regular.e89cb19905e7db5591b0.ttf",
+    "static/media/food-right.png": "/landing_hamburguesera/static/media/food-right.b184f6caef65dc803cb9.png",
+    "static/media/back-food-mobile.png": "/landing_hamburguesera/static/media/back-food-mobile.fdb9097deaf47d94e479.png",
+    "static/media/back.png": "/landing_hamburguesera/static/media/back.1a23cf0b45b42f30448d.png",
     "static/media/Coustard-Black.ttf": "/landing_hamburguesera/static/media/Coustard-Black.7eb06b56ced40a9ed6b6.ttf",
     "static/media/product.png": "/landing_hamburguesera/static/media/product.1e06d67f8dd9317372dc.png",
-    "static/media/Vaso.png": "/landing_hamburguesera/static/media/Vaso.e13ef5a60118b32ad533.png",
-    "static/media/Pizza.png": "/landing_hamburguesera/static/media/Pizza.9b4189af28710980e2d6.png",
+    "static/media/back-mobile.png": "/landing_hamburguesera/static/media/back-mobile.dca126a488c02f5014da.png",
     "index.html": "/landing_hamburguesera/index.html",
-    "main.e9376058.css.map": "/landing_hamburguesera/static/css/main.e9376058.css.map",
-    "main.d7c7cb98.js.map": "/landing_hamburguesera/static/js/main.d7c7cb98.js.map",
+    "main.dd555ffe.css.map": "/landing_hamburguesera/static/css/main.dd555ffe.css.map",
+    "main.48c12c99.js.map": "/landing_hamburguesera/static/js/main.48c12c99.js.map",
     "787.dd2f5b95.chunk.js.map": "/landing_hamburguesera/static/js/787.dd2f5b95.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e9376058.css",
-    "static/js/main.d7c7cb98.js"
+    "static/css/main.dd555ffe.css",
+    "static/js/main.48c12c99.js"
   ]
 }
