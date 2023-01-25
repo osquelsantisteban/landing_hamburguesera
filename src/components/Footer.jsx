@@ -2,7 +2,7 @@ import React from 'react';
 
 function Footer() {
     return (        
-        <footer className='px-4 mt-auto text-center'>
+        <footer className='px-4 mt-auto text-center z-20'>
             <h3>
                 <a href="/">AVISO LEGAL</a> / 
                 <a href="/">POLITICA DE COOKIES</a> / 
