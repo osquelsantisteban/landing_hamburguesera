@@ -9,7 +9,7 @@
     border: 1px solid white;
     border-radius: var(--radius);
     padding: 5px 12px;
-    color: transparent;
+    color: white;
     background-color: transparent;
     backdrop-filter: blur(10px);
 }
