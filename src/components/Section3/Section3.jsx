@@ -3,7 +3,7 @@ import React from 'react';
 export default function Section3(){
     return (
         <section className='flex flex-col w-full mb-[90px] lg:mb-0 z-20'>
-            <h2 className='text-2xl lg:text-5xl pb-[25px] lg:pb-[50px] text-red-strong'>Abrimos</h2>
+            <h2 className='stylesTextRed'>Abrimos</h2>
             <div className='flex flex-row justify-between lg:w-[500px] w-[300px] items-center'>
                 <p className='text-base lg:text-2xl'>Lunes a Domingos</p>
                 <div className="flex items-center justify-between gap-5 lg:gap-10">

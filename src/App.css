@@ -50,6 +50,6 @@
 }
 
 /* General stiles */
-/* h2 {
-  size: 10rem !important;
-} */
+.stylesTextRed{
+  @apply text-2xl lg:text-5xl pb-[25px] lg:pb-[50px] text-red-strong
+}
