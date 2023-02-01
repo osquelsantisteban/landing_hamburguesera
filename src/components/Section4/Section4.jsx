@@ -7,11 +7,11 @@ export default function Section4() {
     return (
         <section className='relative mb-32 lg:mb-4 z-20'>
             <div className='w-[706px]'>
-                <h2 className='w-64 text-2xl lg:text-5xl mb-14 h-14 lg:w-auto lg:h-auto text-red-strong'>¿Qué es lo diferente?</h2>
+                <h2 className='stylesTextRed'>¿Qué es lo diferente?</h2>
             </div>
             
-            <div className='relative flex flex-col gap-32 lg:grid lg:items-center lg:grid-cols-4 lg:gap-0'>
-                <div className='relative flex flex-row h-36 lg:h-36 lg:col-span-2 lg:col-start-3 lg:my-28'>
+            <div className='relative gap-32 grid lg:items-center grid-cols-1 lg:grid-cols-4 lg:gap-0'>
+                <div className='relative col-span-1 h-36 lg:h-36 lg:col-span-2 lg:col-start-3 lg:my-28'>
                     {/* Numero1 */}
                     <div className='flex w-[48px] h-[64px] lg:w-[100px] lg:h-[137px]'>                        
                         <img src={n1} alt="1" />
@@ -20,7 +20,7 @@ export default function Section4() {
                     <p className='absolute top-5 left-8 w-[245px] lg:top-11 lg:left-16 lg:w-[417px] text-base lg:text-2xl'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea co</p>
                 </div>
 
-                <div className='relative flex flex-row-reverse h-36 lg:h-36 lg:col-span-2 lg:col-start-1 lg:my-28 lg:justify-self-end'>
+                <div className='relative flex flex-row-reverse h-36 lg:h-36 lg:col-span-2 lg:col-start-1 mb-32 lg:mt-28 lg:mb-40 lg:justify-self-end'>
                     {/* Numero2 */}
                     <div className='flex w-[48px] h-[64px] lg:w-[100px] lg:h-[137px]'>                        
                         <img src={n2} alt="2" />
@@ -30,8 +30,8 @@ export default function Section4() {
                 </div>
             </div>
 
-            <div className='relative flex flex-col gap-32 lg:grid lg:items-center lg:grid-cols-4 lg:gap-0'>
-                <div className='relative flex flex-row h-36 lg:h-36 lg:col-span-2 lg:col-start-3 lg:my-28'>
+            <div className='relative gap-32 grid lg:items-center grid-cols-1 lg:grid-cols-4 lg:gap-0'>
+                <div className='relative col-span-1 h-36 lg:h-36 lg:col-span-2 lg:col-start-3 lg:my-28'>
                     {/* Numero3 */}
                     <div className='flex w-[48px] h-[64px] lg:w-[100px] lg:h-[137px]'>
                         <img src={n3} alt="2" />
