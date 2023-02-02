@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/landing_hamburguesera/static/css/main.8f8c8e68.css",
-    "main.js": "/landing_hamburguesera/static/js/main.743b172e.js",
+    "main.js": "/landing_hamburguesera/static/js/main.b3e445db.js",
     "static/js/787.dd2f5b95.chunk.js": "/landing_hamburguesera/static/js/787.dd2f5b95.chunk.js",
     "static/media/food-left.png": "/landing_hamburguesera/static/media/food-left.19216382aaceca3fdce5.png",
     "static/media/mapa.png": "/landing_hamburguesera/static/media/mapa.de409794e3691fc63aab.png",
@@ -18,11 +18,11 @@
     "index.html": "/landing_hamburguesera/index.html",
     "static/media/1.svg": "/landing_hamburguesera/static/media/1.99622ce7abd0d5228bb9e6cad33b8fe0.svg",
     "main.8f8c8e68.css.map": "/landing_hamburguesera/static/css/main.8f8c8e68.css.map",
-    "main.743b172e.js.map": "/landing_hamburguesera/static/js/main.743b172e.js.map",
+    "main.b3e445db.js.map": "/landing_hamburguesera/static/js/main.b3e445db.js.map",
     "787.dd2f5b95.chunk.js.map": "/landing_hamburguesera/static/js/787.dd2f5b95.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8f8c8e68.css",
-    "static/js/main.743b172e.js"
+    "static/js/main.b3e445db.js"
   ]
 }
