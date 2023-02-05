@@ -2,9 +2,9 @@ import React,{useEffect} from 'react';
 import backFoodMob from './assets/back-food-mobile.png';
 import leftFood from './assets/food-left.png';
 import rightFood from './assets/food-right.png';
-import back from './assets/back.png'
-import backMob from './assets/back-mobile.png'
-import Pizza from '../../assets/images/Pizza.png'
+/* import back from './assets/back.png';
+import backMob from './assets/back-mobile.png'; */
+import Pizza from '../../assets/images/Pizza.png';
 
 export function BackFood() {
     /* const backfoodMob={        
@@ -91,7 +91,7 @@ export function BackFood() {
 
 export function Background(){    
     return (
-        <section className={`fixed w-full md:bg-[url(${back})] bg-[url(${backMob})] h-[100vh] z-0 pt-14`}>
+        <section className={`fixed w-full md:bg-[url('components/Background/assets/back.png')] bg-[url('components/Background/assets/back-mobile.png')] h-[100vh] z-0 pt-14`}>
         </section>
     );
 }
