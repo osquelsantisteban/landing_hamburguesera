@@ -24,7 +24,7 @@ export default function Section2() {
                     </div>
                 </div>
 
-                <div className='flex flex-row items-center mt-20'>
+                <div className='flex flex-row items-center lg:mt-20'>
                     
                     <Spaces clas="w-1/12 md:w-2/4" space={300} hasArrow={true} arrow={arrow.ARROW_LEFTT} position={position.left} />
 
