@@ -11,6 +11,10 @@ module.exports = {
         colors: {
           'red-strong': '#e6332a',              
         },
+        backgroundImage: {
+          'back': "url('/src/components/Background/assets/back.png')",
+          'back-mobile': "url('/src/components/Background/assets/back-mobile.png')",
+        }
       }
     },
   }
