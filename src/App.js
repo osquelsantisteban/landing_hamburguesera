@@ -1,5 +1,6 @@
 /* import logo from './logo.svg'; */
 import './App.css';
+import React from 'react';
 import {arrow, position} from 'components/config';
 import Header from 'components/Header/Header';
 import {Background, BackFood } from 'components/Background/Background';
