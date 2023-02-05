@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import React, { useRef,useState } from 'react';
 import FormStyle from './ContactForm.module.css'
 
 function ContactForm() {
-
-    const [form, setForm] = useState({})
+    const inputRef = useRef(null);
+    const [form, setForm] = useState({});
     const handleFormChange = (e) => {        
         setForm({
             ...form,
@@ -30,8 +30,14 @@ function ContactForm() {
     // }
 
     const formSubmit = (e) => {
-        e.preventDefault()
-        // console.log(form)
+        e.preventDefault();
+        console.log(inputRef.current.value);
+        console.log(this.form,form);
+        // let emailTo = 'osquelsantisteban@gmail.com';
+        // let emailCC = '';
+        // let emailSub = '';
+        // let emailBody = '';
+        // window.location.href = "mailto:"+emailTo+'?cc='+emailCC+'&subject='+emailSub+'&body='+emailBody;
     }
 
     return ( 
@@ -42,7 +48,8 @@ function ContactForm() {
 
                 <input type="text" 
                 name="name"
-                className={FormStyle.inputs} 
+                className={FormStyle.inputs}
+                ref={inputRef.name} 
                 value={form.name} 
                 placeholder="Dinos tu nombre" 
                 onChange={handleFormChange}/>
