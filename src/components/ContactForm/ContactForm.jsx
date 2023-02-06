@@ -27,22 +27,12 @@ function ContactForm() {
         })
     }
 
-    // const updCheckbox = () => {
-    //     setForm({
-    //         ...form,
-    //         term: !form.term
-    //     })       
-    //     // console.log(form) 
-    // }
 
     const formSubmit = (e) => {
         e.preventDefault();
-        console.log(form);
-        // let emailTo = 'osquelsantisteban@gmail.com';
-        // let emailCC = '';
-        // let emailSub = '';
-        // let emailBody = '';
-        // window.location.href = "mailto:"+emailTo+'?cc='+emailCC+'&subject='+emailSub+'&body='+emailBody;
+        //console.log(form);
+        
+        window.location.href = "mailto:"+form.email+'&subject="Mensaje desde la página web del cliente "'+form.name+'&body='+form.msg;
     }
 
     return ( 
