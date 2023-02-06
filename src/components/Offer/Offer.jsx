@@ -18,7 +18,7 @@ function Offers() {
 
     return ( 
         <section className='md:w-[80%] md:m-auto z-20'>
-            <h2>Esto es lo que <br />tenemos para ti</h2>
+            <h2 className='stylesTextRed'>Esto es lo que <br />tenemos para ti</h2>
             <Spaces space={(isMobile) ? 40 : 150}/>
             <div className='flex flex-row gap-10 justify-between'>
                 <Offer imgdir={prod1Img} text={'Hamburguesas cerradas'}></Offer>

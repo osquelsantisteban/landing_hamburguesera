@@ -1,5 +1,7 @@
 module.exports = {
-    content: ['./src/**/*.{html,js}'],
+    content: [
+      "./src/**/*.{js,jsx,ts,tsx}",
+    ],
     theme: {
       fontFamily: {
         'inter': ['inter'],
@@ -10,7 +12,8 @@ module.exports = {
           'red-strong': '#e6332a',              
         },
         backgroundImage: {
-          'back': "bg-[url('assets/images/back.png')]"
+          'back': "url('/src/components/Background/assets/back.png')",
+          'back-mobile': "url('/src/components/Background/assets/back-mobile.png')",
         }
       }
     },

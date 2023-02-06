@@ -13,7 +13,6 @@ function Product({pos}) {
     
     return ( 
         <a href='/' className={ProductStyle.rotation}>
-            {/* <figure></figure> */}
             <figure className='relative '>
             <img id={rotate} className={ProductStyle[`${rotate}`]} src={BackImg} alt="" width={isMobile ? '90%' : '100%'} />
                 <img className={ProductStyle.product}

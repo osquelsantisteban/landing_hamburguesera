@@ -21,7 +21,7 @@ export default function Slider(props) {
     },[activeIndex])
 
     return (
-        <section className='slider-container'>
+        <section className='z-20 slider-container'>
             <SliderContent 
                 activeIndex={activeIndex}
                 imageSlider={imageSlider}

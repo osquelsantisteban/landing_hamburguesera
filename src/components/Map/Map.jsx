@@ -6,7 +6,7 @@ import MapStyle from './Map.module.css'
 function MapZone() {
     return ( 
         <section className='z-20'>
-            <h2>Puedes Llegarte</h2>
+            <h2 className='stylesTextRed'>Puedes Llegarte</h2>
             <small>C. Canónigo Molina Alonso, 23, 04004 Almería</small>
 
             <figure className='relative'>

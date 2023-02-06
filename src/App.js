@@ -1,5 +1,6 @@
 /* import logo from './logo.svg'; */
 import './App.css';
+import React from 'react';
 import {arrow, position} from 'components/config';
 import Header from 'components/Header/Header';
 import {Background, BackFood } from 'components/Background/Background';
@@ -11,7 +12,7 @@ import ProductsList from 'components/Products/ProductList';
 import Section3 from 'components/Section3/Section3';
 import Section4 from 'components/Section4/Section4';
 import Spaces from 'components/Spaces/Spaces';
-// import Slider from 'components/Carrusel/Slider';
+import Slider from 'components/Carrusel/Slider';
 import Offer from 'components/Offer/Offer';
 
 function App() {
@@ -22,8 +23,8 @@ function App() {
         <Header />
         <Background />
         <BackFood />
-        {/* <Slider /> */}
-        <section className='relative flex flex-col w-10/12 md:w-8/12 pt-10 m-auto'>
+        <Slider />
+        <section className='relative flex flex-col w-10/12 pt-10 m-auto md:w-8/12'>
           <Section2 />
           <Section3 />
           <div className='hidden lg:block'>
@@ -34,7 +35,7 @@ function App() {
           <Offer/>
           <Spaces space={isMobile ? 90 : 300} hasArrow={true} arrow={arrow.ARROW_STRAIGHT} position={position.left} />
           {/* Ver Carta */}
-          <section className='flex md:flex-row flex-col gap-10 items-center md:justify-around z-20'>
+          <section className='z-20 flex flex-col items-center gap-10 md:flex-row md:justify-around'>
             <small>Vale, si has llegado hasta aquí <br/> es que quieres mira nuestra carta </small>
             <button type="button" className='mt-auto btn bordeDifuminado'>ver carta</button>
           </section>

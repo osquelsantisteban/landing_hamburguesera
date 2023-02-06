@@ -3,14 +3,20 @@ import FormStyle from './ContactForm.module.css'
 
 function ContactForm() {
 
-    const [form, setForm] = useState({})
+    const [form, setForm] = useState({
+        name: '',
+        email: '',
+        phone: '',
+        msg: '',
+        term: false,
+    });
+
     const handleFormChange = (e) => {        
         setForm({
             ...form,
             // destructuracion para crear una variable con el valor como php con $$
             [e.target.name]: e.target.value
-        })
-        // console.log(form) 
+        })        
     }
 
     const handleFormChecked = (e) => {
@@ -21,28 +27,23 @@ function ContactForm() {
         })
     }
 
-    // const updCheckbox = () => {
-    //     setForm({
-    //         ...form,
-    //         term: !form.term
-    //     })       
-    //     // console.log(form) 
-    // }
 
     const formSubmit = (e) => {
-        e.preventDefault()
-        // console.log(form)
+        e.preventDefault();
+        //console.log(form);
+        
+        window.location.href = "mailto:"+form.email+'&subject="Mensaje desde la página web del cliente "'+form.name+'&body='+form.msg;
     }
 
     return ( 
         <section className='z-20'>
             <form className='flex flex-col gap-4'
             onSubmit={formSubmit}>
-                <h2>Queremos escucharte</h2>
+                <h2 className='stylesTextRed'>Queremos escucharte</h2>
 
                 <input type="text" 
                 name="name"
-                className={FormStyle.inputs} 
+                className={FormStyle.inputs}                
                 value={form.name} 
                 placeholder="Dinos tu nombre" 
                 onChange={handleFormChange}/>
@@ -61,7 +62,7 @@ function ContactForm() {
                 value={form.phone} 
                 onChange={handleFormChange}/>
 
-                <textarea name="mg" 
+                <textarea name="msg" 
                 className={FormStyle.inputs}
                 placeholder='Tu mensaje'
                 value={form.msg} 
