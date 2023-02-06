@@ -1,16 +1,22 @@
-import React, { useRef,useState } from 'react';
+import React, { useState } from 'react';
 import FormStyle from './ContactForm.module.css'
 
 function ContactForm() {
-    const inputRef = useRef(null);
-    const [form, setForm] = useState({});
+
+    const [form, setForm] = useState({
+        name: '',
+        email: '',
+        phone: '',
+        msg: '',
+        term: false,
+    });
+
     const handleFormChange = (e) => {        
         setForm({
             ...form,
             // destructuracion para crear una variable con el valor como php con $$
             [e.target.name]: e.target.value
-        })
-        // console.log(form) 
+        })        
     }
 
     const handleFormChecked = (e) => {
@@ -31,8 +37,7 @@ function ContactForm() {
 
     const formSubmit = (e) => {
         e.preventDefault();
-        console.log(inputRef.current.value);
-        console.log(this.form,form);
+        console.log(form);
         // let emailTo = 'osquelsantisteban@gmail.com';
         // let emailCC = '';
         // let emailSub = '';
@@ -48,8 +53,7 @@ function ContactForm() {
 
                 <input type="text" 
                 name="name"
-                className={FormStyle.inputs}
-                ref={inputRef.name} 
+                className={FormStyle.inputs}                
                 value={form.name} 
                 placeholder="Dinos tu nombre" 
                 onChange={handleFormChange}/>
@@ -68,7 +72,7 @@ function ContactForm() {
                 value={form.phone} 
                 onChange={handleFormChange}/>
 
-                <textarea name="mg" 
+                <textarea name="msg" 
                 className={FormStyle.inputs}
                 placeholder='Tu mensaje'
                 value={form.msg} 
