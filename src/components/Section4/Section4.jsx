@@ -6,7 +6,7 @@ import n3 from './assets/3.svg';
 export default function Section4() {
     return (
         <section className='relative mb-32 lg:mb-4 z-20'>
-            <div className='w-[706px]'>
+            <div className='w-full'>
                 <h2 className='stylesTextRed'>¿Qué es lo diferente?</h2>
             </div>
             
