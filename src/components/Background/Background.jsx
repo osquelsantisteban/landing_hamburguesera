@@ -46,7 +46,7 @@ export function BackFood() {
                     <img src={Pizza1}   alt="" className='absolute moueseEffect object-contain' data-value="-3" />
                     <img src={Pizza2}   alt="" className='absolute moueseEffect object-contain' data-value="4" />
                     <img src={Pizza3}   alt="" className='absolute moueseEffect object-contain' data-value="10" />
-                    <img src={Vaso}     alt="" className='absolute moueseEffect object-contain' data-value="19" />
+                    <img src={Vaso}     alt="" className='absolute moueseEffect object-contain' data-value="-9" />
                 </div>
             }
 
