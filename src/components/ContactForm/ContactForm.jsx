@@ -37,8 +37,9 @@ function ContactForm() {
 
     return ( 
         <section className='z-20'>
-            <form className='flex flex-col gap-4'
-            onSubmit={formSubmit}>
+            <form 
+                className='flex flex-col gap-4'
+                onSubmit={formSubmit}>
                 <h2 className='stylesTextRed'>Queremos escucharte</h2>
 
                 <input type="text" 
