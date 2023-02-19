@@ -32,7 +32,7 @@ function ContactForm() {
         e.preventDefault();
         //console.log(form);
         
-        window.location.href = "mailto:"+form.email+'&subject="Mensaje desde la página web del cliente "'+form.name+'&body='+form.msg;
+        window.location.href = "mailto:info@impasto.com"+'&subject="Mensaje desde la página web del cliente "'+form.name+'&body= '+form.email+' </br>'+form.msg;
     }
 
     return ( 

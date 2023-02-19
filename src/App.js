@@ -28,29 +28,29 @@ function App() {
           <Section2 />
           <Section3 />
           <div className='hidden lg:block'>
-            <Spaces space={300} hasArrow={true} arrow={arrow.ARROW_STRAIGHT} position={position.right} />        
+            <Spaces space={150} hasArrow={true} arrow={arrow.ARROW_STRAIGHT} position={position.right} />        
           </div>
           <Section4 />
-          <Spaces space={isMobile ? 90 : 300} hasArrow={true} arrow={arrow.ARROW_RIGHT} position={position.right} />
+          <Spaces space={isMobile ? 90 : 150} hasArrow={true} arrow={arrow.ARROW_RIGHT} position={position.right} />
           <Offer/>
-          <Spaces space={isMobile ? 90 : 300} hasArrow={true} arrow={arrow.ARROW_STRAIGHT} position={position.left} />
+          <Spaces space={isMobile ? 90 : 150} hasArrow={true} arrow={arrow.ARROW_STRAIGHT} position={position.left} />
           {/* Ver Carta */}
           <section className='z-20 flex flex-col items-center gap-10 md:flex-row md:justify-around'>
             <small>Vale, si has llegado hasta aquí <br/> es que quieres mira nuestra carta </small>
             <button type="button" className='mt-auto btn bordeDifuminado'>ver carta</button>
           </section>
 
-          <Spaces space={isMobile ? 90 : 300} />
+          <Spaces space={isMobile ? 90 : 150} />
           <ProductsList></ProductsList>
           {
             isMobile 
             ? <Spaces space={90} hasArrow={true} arrow={arrow.ARROW_STRAIGHT} position={position.right} />
-            : <Spaces space={300} hasArrow={true} arrow={arrow.ARROW_RIGHT} position={position.right} />
+            : <Spaces space={150} hasArrow={true} arrow={arrow.ARROW_RIGHT} position={position.right} />
           }
           <MapZone></MapZone>
-          <Spaces space={isMobile ? 90 : 300} />
+          <Spaces space={isMobile ? 90 : 150} />
           <ContactForm></ContactForm>
-          <Spaces space={isMobile ? 90 : 300} />
+          <Spaces space={isMobile ? 30 : 90} />
         </section>
       </main>
       <Footer />
