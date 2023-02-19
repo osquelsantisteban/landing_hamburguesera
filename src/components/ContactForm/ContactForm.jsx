@@ -64,7 +64,7 @@ function ContactForm() {
                 onChange={handleFormChange}/>
 
                 <textarea name="msg" 
-                className={FormStyle.inputs}
+                className={FormStyle.inputs+' h-52'}
                 placeholder='Tu mensaje'
                 value={form.msg} 
                 onChange={handleFormChange}/>
