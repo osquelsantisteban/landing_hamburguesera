@@ -1,6 +1,7 @@
 import React from 'react';
 import Logo from './Logo';
 import BotonHeader from './BotonHeader';
+import { Link } from 'react-router-dom';
 
 export default function Header() {
     return (
@@ -8,9 +9,9 @@ export default function Header() {
             <section className='flex h-16 bg-black items-center'>
                 <div className='flex items-center justify-between w-full mx-2 md:mx-6 lg:mx-24'>
                     
-                    <div className=''>
+                    <Link to="/">
                         <Logo />
-                    </div>
+                    </Link>
 
                     <BotonHeader />
                 </div>
