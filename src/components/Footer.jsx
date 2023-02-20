@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 function Footer() {
     return (        
-        <footer className='px-4 mt-auto text-center z-20'>
-            <h3 className='text-sm lg:text-lg'>
+        <footer className='px-4 mt-auto text-center z-20 mb-5'>
+            <h3 className='text-sm lg:text-lg mb-2'>
                 <Link to="/aviso" >
                     AVISO LEGAL/ 
                 </Link>
