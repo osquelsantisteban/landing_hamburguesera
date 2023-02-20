@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import SliderContent from './SliderContent';
 import { imageSlider } from './imageSlider';
 import Arrows from './Arrows';
-import Dots from './Dots';
+// import Dots from './Dots';
 import './slider.css';
 
 const len = imageSlider.length -1;
@@ -34,11 +34,11 @@ export default function Slider(props) {
                     () => setActiveIndex(activeIndex === len ? 0 : activeIndex + 1)
                 } 
             />
-            <Dots 
+            {/* <Dots 
                 activeIndex={activeIndex} 
                 imageSlider={imageSlider} 
                 onclick={ (activeIndex) => setActiveIndex(activeIndex)}
-            />
+            /> */}
         </section>
     );
 }
