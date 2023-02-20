@@ -31,14 +31,15 @@ function ContactForm() {
     const formSubmit = (e) => {
         e.preventDefault();
         //console.log(form);
-        
-        window.location.href = "mailto:"+form.email+'&subject="Mensaje desde la página web del cliente "'+form.name+'&body='+form.msg;
+                
+        window.location.href = `mailto:info@impasto.com &subject='Mensaje desde la página web del cliente '${form.name} &body= ${form.email} </br> ${form.msg}`;
     }
 
     return ( 
         <section className='z-20'>
-            <form className='flex flex-col gap-4'
-            onSubmit={formSubmit}>
+            <form 
+                className='flex flex-col gap-4'
+                onSubmit={formSubmit}>
                 <h2 className='stylesTextRed'>Queremos escucharte</h2>
 
                 <input type="text" 
@@ -63,7 +64,7 @@ function ContactForm() {
                 onChange={handleFormChange}/>
 
                 <textarea name="msg" 
-                className={FormStyle.inputs}
+                className={FormStyle.inputs+' h-52'}
                 placeholder='Tu mensaje'
                 value={form.msg} 
                 onChange={handleFormChange}/>

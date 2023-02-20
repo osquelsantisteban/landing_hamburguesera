@@ -1,4 +1,4 @@
-import Promo1 from '../../assets/images/Carrusel/especial_navidad.png';
+import Promo1 from './assets/especial_navidad.png';
 
 export const imageSlider = [{
     title: 'First Slider Image',

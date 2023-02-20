@@ -7,13 +7,17 @@ function MapZone() {
     return ( 
         <section className='z-20'>
             <h2 className='stylesTextRed'>Puedes Llegarte</h2>
-            <small>C. Canónigo Molina Alonso, 23, 04004 Almería</small>
+            <a href="https://www.google.com/maps/@36.8380853,-2.4649583,17.29z">
+                <small>C. Lucano, 3, 04001 Almería</small>
+            </a>
 
-            <figure className='relative'>
-                <img src={MapBack} alt="" />
-                <img className={MapStyle.mapImg}
-                 src={Map} alt="" />
-            </figure>
+            <a href="https://www.google.com/maps/@36.8380853,-2.4649583,17.29z">
+                <figure className='relative'>
+                    <img src={MapBack} alt="" />
+                    <img className={MapStyle.mapImg}
+                    src={Map} alt="" />
+                </figure>
+            </a>
         </section>
      );
 }

@@ -8,11 +8,11 @@
     to {transform: rotate(360deg)}
 }
 
-.rotation:hover img[id^="turn"] {
+/* .rotation:hover img[id^="turn"] {
     animation-name: rotation;
     animation-duration: 4s;
     animation-iteration-count: infinite;
-}
+} */
 
 .product {
     position: absolute;
@@ -20,8 +20,8 @@
     left: 14px;
     border: 1px solid #fff;
     border-radius: 50%;    
-    width: var(--diam);
-    height: var(--diam);
+    width: var(--diam-mob);
+    height: var(--diam-mob);
 }
 
 .turn1 {
