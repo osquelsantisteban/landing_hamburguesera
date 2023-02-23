@@ -9,7 +9,7 @@ import ContactForm from 'components/ContactForm/ContactForm';
 import MapZone from 'components/Map/Map';
 import Section2 from 'components/Section2/Section2';
 import ProductsList from 'components/Products/ProductList';
-import Section3 from 'components/Section3/Section3';
+import Horario from 'components/Horario/Horario';
 import Section4 from 'components/Section4/Section4';
 import Spaces from 'components/Spaces/Spaces';
 import Slider from 'components/Carrusel/Slider';
@@ -26,7 +26,7 @@ function Home() {
         <Slider />
         <section className='relative flex flex-col w-10/12 pt-10 m-auto md:w-8/12'>
           <Section2 />
-          <Section3 />
+          <Horario />
           <div className='hidden lg:block'>
             <Spaces space={150} hasArrow={true} arrow={arrow.ARROW_STRAIGHT} position={position.right} />        
           </div>
