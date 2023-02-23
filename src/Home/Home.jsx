@@ -20,7 +20,7 @@ function Home() {
   return (
     <>
       <main className="">
-        <Header />
+        <Header buttonType="1"/>
         <Background />
         <BackFood />
         <Slider />

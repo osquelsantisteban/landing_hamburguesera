@@ -10,7 +10,7 @@ function Aviso() {
   const isMobile = (window.innerWidth <= 648)
   return (
     <>
-        <Header />
+        <Header buttonType="2"/>
         <Background />
       
         <section className='mt-40 my-20 z-20 w-10/12 mx-auto flex flex-col justify-center items-center'>
