@@ -29,11 +29,12 @@ function ContactForm() {
 
 
     const formSubmit = (e) => {
-        e.preventDefault();
-        //console.log(form);
-                
-        window.location.href = `mailto:info@impasto.com &subject='Mensaje desde la página web del cliente '${form.name} &body= ${form.email} </br> ${form.msg}`;
-    }
+        e.preventDefault();     
+        const subject = encodeURIComponent(`Mensaje desde la página web del cliente ${form.name}`);
+        const body = encodeURIComponent(`${form.email}\n${form.msg}`);
+        window.location.href = `mailto:info@impasto.com?subject=${subject}&body=${body}`;
+      }
+      
 
     return ( 
         <section className='z-20'>

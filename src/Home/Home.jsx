@@ -16,7 +16,8 @@ import Slider from 'components/Carrusel/Slider';
 import Offer from 'components/Offer/Offer';
 
 function Home() {
-  const isMobile = (window.innerWidth <= 648)
+  const isMobile = (window.innerWidth <= 648);
+
   return (
     <>
       <main className="">
@@ -37,7 +38,8 @@ function Home() {
           {/* Ver Carta */}
           <section className='z-20 flex flex-col items-center gap-10 md:flex-row md:justify-around'>
             <small>Vale, si has llegado hasta aquí <br/> es que quieres mira nuestra carta </small>
-            <button type="button" className='mt-auto btn bordeDifuminado'>ver carta</button>
+            <a href="./CARTA_IMPASTO.pdf" download className='mt-auto btn bordeDifuminado'>ver carta</a>
+            {/* <button type="button" onClick={handleDownload} className='mt-auto btn bordeDifuminado'>ver carta</button> */}
           </section>
 
           <Spaces space={isMobile ? 90 : 150} />
