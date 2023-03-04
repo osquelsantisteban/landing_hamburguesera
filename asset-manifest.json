@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/landing_hamburguesera/static/css/main.1d96a410.css",
-    "main.js": "/landing_hamburguesera/static/js/main.bdaed5a9.js",
+    "main.css": "/landing_hamburguesera/static/css/main.6ab68ea8.css",
+    "main.js": "/landing_hamburguesera/static/js/main.4fc4f577.js",
     "static/js/787.dd2f5b95.chunk.js": "/landing_hamburguesera/static/js/787.dd2f5b95.chunk.js",
     "static/media/mapa.png": "/landing_hamburguesera/static/media/mapa.409faa510edad1cc1e35.png",
     "static/media/especial_navidad.png": "/landing_hamburguesera/static/media/especial_navidad.4fe6603b23d5946f96c7.png",
@@ -25,12 +25,12 @@
     "index.html": "/landing_hamburguesera/index.html",
     "static/media/1.svg": "/landing_hamburguesera/static/media/1.99622ce7abd0d5228bb9e6cad33b8fe0.svg",
     "static/media/x.svg": "/landing_hamburguesera/static/media/x.2173934442f03693fab97788fba7d20c.svg",
-    "main.1d96a410.css.map": "/landing_hamburguesera/static/css/main.1d96a410.css.map",
-    "main.bdaed5a9.js.map": "/landing_hamburguesera/static/js/main.bdaed5a9.js.map",
+    "main.6ab68ea8.css.map": "/landing_hamburguesera/static/css/main.6ab68ea8.css.map",
+    "main.4fc4f577.js.map": "/landing_hamburguesera/static/js/main.4fc4f577.js.map",
     "787.dd2f5b95.chunk.js.map": "/landing_hamburguesera/static/js/787.dd2f5b95.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d96a410.css",
-    "static/js/main.bdaed5a9.js"
+    "static/css/main.6ab68ea8.css",
+    "static/js/main.4fc4f577.js"
   ]
 }
