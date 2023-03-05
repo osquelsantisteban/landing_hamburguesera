@@ -40,7 +40,6 @@ function Home() {
           <section className='z-20 flex flex-col items-center gap-10 md:flex-row md:justify-around'>
             <small>Vale, si has llegado hasta aquí <br/> es que quieres mira nuestra carta </small>
             <a href="./CARTA_IMPASTO.pdf" download className='mt-auto btn bordeDifuminado'>ver carta</a>
-            {/* <button type="button" onClick={handleDownload} className='mt-auto btn bordeDifuminado'>ver carta</button> */}
           </section>
 
           <Spaces space={isMobile ? 90 : 150} />
