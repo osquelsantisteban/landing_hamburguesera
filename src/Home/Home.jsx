@@ -3,41 +3,43 @@ import './Home.css';
 import React from 'react';
 import {arrow, position} from 'components/config';
 import Header from 'components/Header/Header';
-import {Background, BackFood } from 'components/Background/Background';
 import Footer from 'components/Footer';
 import ContactForm from 'components/ContactForm/ContactForm';
 import MapZone from 'components/Map/Map';
 import Section2 from 'components/Section2/Section2';
 import ProductsList from 'components/Products/ProductList';
-import Section3 from 'components/Section3/Section3';
-import Section4 from 'components/Section4/Section4';
+import Horario from 'components/Horario/Horario';
+import QueEsDiferente from 'components/QueEsDiferente/QueEsDiferente';
 import Spaces from 'components/Spaces/Spaces';
 import Slider from 'components/Carrusel/Slider';
 import Offer from 'components/Offer/Offer';
+import Background from 'components/Background/Background';
+import FoodAnimation from 'components/Background/FoodAnimation';
 
 function Home() {
-  const isMobile = (window.innerWidth <= 648)
+  const isMobile = (window.innerWidth <= 648);
+
   return (
     <>
       <main className="">
-        <Header />
+        <Header buttonType="1"/>
         <Background />
-        <BackFood />
+        <FoodAnimation />
         <Slider />
         <section className='relative flex flex-col w-10/12 pt-10 m-auto md:w-8/12'>
           <Section2 />
-          <Section3 />
+          <Horario />
           <div className='hidden lg:block'>
             <Spaces space={150} hasArrow={true} arrow={arrow.ARROW_STRAIGHT} position={position.right} />        
           </div>
-          <Section4 />
-          <Spaces space={isMobile ? 90 : 150} hasArrow={true} arrow={arrow.ARROW_RIGHT} position={position.right} />
+          <QueEsDiferente />
+          <Spaces space={isMobile ? 45 : 150} hasArrow={true} arrow={arrow.ARROW_RIGHT} position={position.right} />
           <Offer/>
           <Spaces space={isMobile ? 90 : 150} hasArrow={true} arrow={arrow.ARROW_STRAIGHT} position={position.left} />
           {/* Ver Carta */}
           <section className='z-20 flex flex-col items-center gap-10 md:flex-row md:justify-around'>
             <small>Vale, si has llegado hasta aquí <br/> es que quieres mira nuestra carta </small>
-            <button type="button" className='mt-auto btn bordeDifuminado'>ver carta</button>
+            <a href="./CARTA_IMPASTO.pdf" download className='mt-auto btn bordeDifuminado'>ver carta</a>
           </section>
 
           <Spaces space={isMobile ? 90 : 150} />
