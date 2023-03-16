@@ -2,7 +2,10 @@ import React from 'react';
 import Product from './Product';
 import Modal from "components/Modals/Modal";
 import { useModal } from "components/Modals/useModal";
-import ProductImg from './assets/product.png'
+import ProductImg1 from './assets/product1.png'
+import ProductImg2 from './assets/product2.png'
+import ProductImg3 from './assets/product3.png'
+import ProductImg4 from './assets/product4.png'
 
 
 
@@ -18,30 +21,30 @@ function ProductsList() {
         <>
             {/* Modal 1 */}
             <Modal isOpen={isOpenM1} closeModal={closeM1}>                
-                <img src={ProductImg} alt="" />
+                <img src={ProductImg1} alt="" />
             </Modal>
 
             {/* Modal 2 */}
             <Modal isOpen={isOpenM2} closeModal={closeM2}>
-                <img src={ProductImg} alt="" />
+                <img src={ProductImg2} alt="" />
             </Modal>
 
             {/* Modal 3 */}
             <Modal isOpen={isOpenM3} closeModal={closeM3}>
-                <img src={ProductImg} alt="" />
+                <img src={ProductImg3} alt="" />
             </Modal>
             
             {/* Modal 4 */}
             <Modal isOpen={isOpenM4} closeModal={closeM4}>
-                <img src={ProductImg} alt="" />
+                <img src={ProductImg4} alt="" />
             </Modal>
             
             <section className='relative grid md:grid-cols-4 grid-cols-2 gap-6 z-20'>
                 <button className='' onClick={openM1}>
-                    <Product pos={1} />
+                    <Product pos={1} src={ProductImg1}/>
                 </button>
                 <button className='' onClick={openM2}>
-                    <Product pos={2} />
+                    <Product pos={2} src={ProductImg2}/>
                 </button>                
                                 
 
@@ -57,10 +60,10 @@ function ProductsList() {
                 }
 
                 <button className='' onClick={openM3}>
-                    <Product pos={3} />
+                    <Product pos={3} src={ProductImg3}/>
                 </button>
                 <button className='' onClick={openM4}>
-                    <Product pos={4} />
+                    <Product pos={4} src={ProductImg4}/>
                 </button>
             </section>
         </>
