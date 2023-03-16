@@ -27,8 +27,7 @@ const FoodAnimation = () => {
 
     const handleScroll = (event) => {
       const currentScrollPosition = window.pageYOffset;
-      const direction = currentScrollPosition > previousScrollPosition ? 'down' : 'up';
-      console.log(event);
+      const direction = currentScrollPosition > previousScrollPosition ? 'down' : 'up';      
 
       
       document.querySelectorAll('.image-scroller').forEach((move) => {
@@ -62,7 +61,7 @@ const FoodAnimation = () => {
                     <img src={Pizza1}   alt="" className='absolute object-contain image-scroller' data-value="-5" />
                     <img src={Pizza2}   alt="" className='absolute object-contain image-scroller' data-value="5" />
                     <img src={Vaso}     alt="" className='absolute object-contain image-scroller' data-value="5" />
-                    <img src={Pizza3}   alt="" className='absolute object-contain image-scroller' data-value="10" />
+                    <img src={Pizza3}   alt="" className='absolute object-contain image-scroller' data-value="-5" />
                 </div>                            
                 : 
                 <div className='relative flex flex-1 flex-wrap w-full overflow-hidden h-screen justify-center items-center object-contain'>
