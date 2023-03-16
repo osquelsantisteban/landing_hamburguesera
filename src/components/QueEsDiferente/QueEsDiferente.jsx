@@ -3,7 +3,7 @@ import n1 from './assets/1.svg';
 import n2 from './assets/2.svg';
 import n3 from './assets/3.svg';
 
-export default function Section4() {
+export default function QueEsDiferente() {
     return (
         <section className='relative mb-32 lg:mb-4 z-20'>
             <div className='w-full'>
